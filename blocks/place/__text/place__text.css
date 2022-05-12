@@ -1,0 +1,11 @@
+.place__text {
+  display: grid;
+  align-self: start;
+  justify-self: end;
+}
+
+@media screen and (max-width: 650px) {
+  .place__text {
+    margin-top: 32px;
+  }
+}

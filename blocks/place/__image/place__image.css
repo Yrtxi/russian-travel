@@ -1,0 +1,23 @@
+.place__image {
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-right: 32px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .place__image {
+    padding: 0;
+  }
+}

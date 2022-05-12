@@ -1,0 +1,9 @@
+.intro__content {
+  width: 690px;
+}
+
+@media screen and (max-width: 794px) {
+  .intro__content {
+    width: 100%;
+  }
+}

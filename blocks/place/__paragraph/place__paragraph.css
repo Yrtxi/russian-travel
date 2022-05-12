@@ -1,0 +1,41 @@
+.place__paragraph {
+  width: calc(100% - 8px);
+  margin: 0 0 26px;
+  justify-self: end;
+  align-self: end;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #fff;
+}
+
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    margin-bottom: 27px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .place__paragraph {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    width: calc(100% - 16px * 2);
+    justify-self: center;
+  }
+}

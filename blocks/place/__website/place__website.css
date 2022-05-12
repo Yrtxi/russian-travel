@@ -1,0 +1,26 @@
+.place__website {
+  width: calc(100% - 8px);
+  padding: 0;
+  margin: 0 0 48px;
+  align-self: end;
+  justify-self: end;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+}
+
+@media screen and (max-width: 650px) {
+  .place__website {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    width: calc(100% - 16px * 2);
+    justify-self: center;
+  }
+}
